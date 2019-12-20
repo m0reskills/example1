@@ -1,0 +1,5 @@
+@include('layouts.header')
+@include('partials.search')
+@yield('content')
+@include('layouts.footer')
+@yield('js')
